@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { goto } from '$app/navigation';
-  import { microgen } from '../lib/microgen';
+  import { microgen } from '../../lib/microgen';
   import { page } from '$app/stores';
 
   const { username } = $page.params;
